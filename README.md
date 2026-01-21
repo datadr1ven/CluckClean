@@ -12,7 +12,7 @@ A fun, motivational dental hygiene portfolio app built for the "New Year, New Yo
 
 ## 🚀 Tech Stack
 
-- **Next.js 15** - App Router with TypeScript
+- **Next.js 16** - App Router with TypeScript
 - **Tailwind CSS** - Utility-first styling with glassmorphism effects
 - **Framer Motion** - Smooth animations and micro-interactions
 - **Google Gemini AI** - Intelligent content generation
@@ -22,9 +22,9 @@ A fun, motivational dental hygiene portfolio app built for the "New Year, New Yo
 
 1. **Clone and install dependencies:**
    ```bash
-   npx create-next-app@latest cluckclean --typescript --tailwind --eslint --app --src-dir --import-alias "@/*" --yes
-   cd cluckclean
-   npm install framer-motion @google/generative-ai
+   git clone https://github.com/datadr1ven/CluckClean.git
+   cd CluckClean
+   npm install
    ```
 
 2. **Set up Gemini API:**
@@ -43,7 +43,6 @@ A fun, motivational dental hygiene portfolio app built for the "New Year, New Yo
 
 1. **Build the Docker image:**
    ```bash
-   # Create Dockerfile in project root
    docker build -t cluckclean .
    ```
 

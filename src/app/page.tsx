@@ -97,7 +97,7 @@ export default function Home() {
           transition={{ duration: 0.6, delay: 1.0 }}
           className="text-sm text-gray-600"
         >
-          Built fast with Grok & Gemini – © Nick 2026
+          Built fast with Grok & Gemini – by <a href="https://dev.to/datadr1ven/">datadr1ven</a> 2026
         </motion.p>
       </motion.main>
     </div>

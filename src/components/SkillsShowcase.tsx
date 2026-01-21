@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const skills = [
   {
     icon: "🚀",
-    title: "Next.js 15",
+    title: "Next.js 16",
     description: "Latest App Router with TypeScript for modern React development"
   },
   {
@@ -21,7 +21,7 @@ const skills = [
   {
     icon: "🤖",
     title: "Google Gemini AI",
-    description: "Powered by Gemini 1.5 Flash for intelligent content generation"
+    description: "Powered by Gemini 2.5 Flash for intelligent content generation"
   },
   {
     icon: "☁️",
